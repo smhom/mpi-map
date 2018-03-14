@@ -1,0 +1,109 @@
+"ISO
+country
+code",Country,World region,"Multidimensional Poverty Index
+(MPI)",Education,Health,"Living 
+standards",Total number of indicators included,Indicator(s) missing
+KAZ,Kazakhstan,Europe and Central Asia,0.000,1.4,97.2,1.4,10,None
+SRB,Serbia,Europe and Central Asia,0.001,48.8,10.0,41.2,10,None
+TKM,Turkmenistan,Europe and Central Asia,0.001,20.7,73.0,6.3,10,None
+ARM,Armenia,Europe and Central Asia,0.001,18.2,59.6,22.3,10,None
+MNE,Montenegro,Europe and Central Asia,0.001,57.4,12.9,29.7,10,None
+KGZ,Kyrgyzstan,Europe and Central Asia,0.002,23.5,50.6,25.9,10,None
+BIH,Bosnia and Herzegovina,Europe and Central Asia,0.002,26.7,55.8,17.5,9,Child Mortality
+MKD,"Macedonia, The former Yugoslav Republic of",Europe and Central Asia,0.002,28.2,43.1,28.7,9,Child Mortality
+MDA,"Moldova, Republic of",Europe and Central Asia,0.003,31.2,21.5,47.3,10,None
+BRB,Barbados,Latin America and Caribbean,0.003,0.0,97.4,2.6,9,Child Mortality
+THA,Thailand,East Asia and the Pacific,0.003,41.0,39.0,20.0,10,None
+LCA,Saint Lucia,Latin America and Caribbean,0.003,6.2,81.8,12.0,9,Child Mortality
+PSE,"Palestine, State of",Arab States,0.004,36.1,49.8,14.1,10,None
+UKR,Ukraine,Europe and Central Asia,0.004,1.4,94.2,4.4,9,Nutrition
+TUN,Tunisia,Arab States,0.004,48.1,25.7,26.2,10,None
+MEX,Mexico,Latin America and Caribbean,0.005,31.4,35.2,33.4,10,None
+ALB,Albania,Europe and Central Asia,0.005,32.0,44.9,23.0,10,None
+LBY,Libya,Arab States,0.006,44.0,48.2,7.8,10,None
+DZA,Algeria,Arab States,0.006,46.0,32.7,21.3,10,None
+JOR,Jordan,Arab States,0.006,23.8,73.8,2.4,10,None
+JAM,Jamaica,Latin America and Caribbean,0.007,15.6,42.8,41.6,8,Child Mortality & Floor
+UZB,Uzbekistan,Europe and Central Asia,0.008,23.2,55.7,21.1,10,None
+GUY,Guyana,Latin America and Caribbean,0.013,18.5,36.5,45.0,10,None
+ECU,Ecuador,Latin America and Caribbean,0.013,21.5,47.8,30.7,10,None
+EGY,Egypt,Arab States,0.014,52.8,39.6,7.6,9,Cooking Fuel
+SYR,Syrian Arab Republic,Arab States,0.016,55.4,33.5,11.1,10,None
+CHN,China,East Asia and the Pacific,0.017,29.2,45.4,25.4,9,Floor
+BLZ,Belize,Latin America and Caribbean,0.018,41.0,31.2,27.8,10,None
+MDV,Maldives,South Asia,0.018,13.6,81.1,5.3,10,None
+TTO,Trinidad and Tobago,Latin America and Caribbean,0.020,1.3,94.3,4.4,9,Nutrition
+AZE,Azerbaijan,Europe and Central Asia,0.021,24.4,49.4,26.2,10,None
+BRA,Brazil,Latin America and Caribbean,0.021,10.9,68.5,20.6,8,Nutrition & Floor
+COL,Colombia,Latin America and Caribbean,0.022,31.8,33.5,34.7,10,None
+SUR,Suriname,Latin America and Caribbean,0.024,31.2,33.8,34.9,9,Child Mortality
+SLV,El Salvador,Latin America and Caribbean,0.026,39.2,19.4,41.4,10,None
+VNM,Viet Nam,East Asia and the Pacific,0.029,17.6,58.1,24.3,9,Nutrition
+DOM,Dominican Republic,Latin America and Caribbean,0.034,12.5,72.1,15.3,9,Nutrition
+ZAF,South Africa,Sub-Saharan Africa,0.036,5.3,57.0,37.7,10,None
+MNG,Mongolia,East Asia and the Pacific,0.041,18.0,25.0,57.0,10,None
+PER,Peru,Latin America and Caribbean,0.043,20.6,24.0,55.4,10,None
+IRQ,Iraq,Arab States,0.045,51.3,38.4,10.3,10,None
+PHL,Philippines,East Asia and the Pacific,0.052,16.3,56.3,27.4,8,School Attendance & Nutrition
+TJK,Tajikistan,Europe and Central Asia,0.054,21.3,52.3,26.4,10,None
+SWZ,Swaziland,Sub-Saharan Africa,0.066,16.1,33.5,50.4,10,None
+IDN,Indonesia,East Asia and the Pacific,0.066,12.6,60.7,26.7,9,Nutrition
+MAR,Morocco,Arab States,0.067,47.3,18.5,34.2,10,None
+GAB,Gabon,Sub-Saharan Africa,0.070,15.4,45.0,39.6,10,None
+NIC,Nicaragua,Latin America and Caribbean,0.072,38.4,13.8,47.8,10,None
+HND,Honduras,Latin America and Caribbean,0.072,31.9,24.2,44.0,9,Electricity
+STP,Sao Tome and Principe,Sub-Saharan Africa,0.081,30.6,25.9,43.5,10,None
+BOL,"Bolivia, Plurinational State of",Latin America and Caribbean,0.089,19.8,27.5,52.6,10,None
+GTM,Guatemala,Latin America and Caribbean,0.113,34.0,27.2,38.8,10,None
+BTN,Bhutan,South Asia,0.119,40.4,21.2,38.4,10,None
+VUT,Vanuatu,East Asia and the Pacific,0.129,29.7,17.3,53.0,10,None
+MMR,Myanmar,East Asia and the Pacific,0.134,25.6,31.6,42.8,10,None
+DJI,Djibouti,Arab States,0.139,38.3,24.6,37.1,10,None
+LSO,Lesotho,Sub-Saharan Africa,0.140,13.9,30.8,55.3,10,None
+KHM,Cambodia,East Asia and the Pacific,0.146,27.3,29.8,42.9,10,None
+ZWE,Zimbabwe,Sub-Saharan Africa,0.152,9.5,33.3,57.2,10,None
+GHA,Ghana,Sub-Saharan Africa,0.156,24.3,35.3,40.4,10,None
+COM,Comoros,Sub-Saharan Africa,0.173,28.7,25.0,46.3,10,None
+LAO,Lao People's Democratic Republic,East Asia and the Pacific,0.174,31.4,30.4,38.3,10,None
+NPL,Nepal,South Asia,0.175,18.6,43.7,37.7,10,None
+COG,"Congo, Republic of",Sub-Saharan Africa,0.181,9.9,33.4,56.7,10,None
+KEN,Kenya,Sub-Saharan Africa,0.187,9.8,33.0,57.2,10,None
+IND,India,South Asia,0.191,13.2,44.4,42.4,10,None
+NAM,Namibia,Sub-Saharan Africa,0.193,11.5,38.7,49.8,10,None
+BGD,Bangladesh,South Asia,0.196,21.1,32.5,46.4,10,None
+PAK,Pakistan,South Asia,0.230,31.5,37.3,31.3,10,None
+YEM,Yemen,Arab States,0.236,28.0,36.7,35.3,10,None
+CMR,Cameroon,Sub-Saharan Africa,0.248,23.6,30.7,45.7,10,None
+HTI,Haiti,Latin America and Caribbean,0.248,19.7,28.5,51.8,10,None
+MWI,Malawi,Sub-Saharan Africa,0.251,16.7,28.3,55.0,10,None
+TGO,Togo,Sub-Saharan Africa,0.252,22.0,32.7,45.3,10,None
+RWA,Rwanda,Sub-Saharan Africa,0.259,21.0,24.9,54.1,10,None
+AGO,Angola,Sub-Saharan Africa,0.259,30.5,21.3,48.1,10,None
+ZMB,Zambia,Sub-Saharan Africa,0.281,18.5,29.7,51.8,10,None
+TZA,"Tanzania, United Republic of",Sub-Saharan Africa,0.284,20.7,24.9,54.3,10,None
+MRT,Mauritania,Sub-Saharan Africa,0.285,32.0,21.4,46.5,10,None
+SDN,Sudan,Arab States,0.287,26.7,23.5,49.8,10,None
+AFG,Afghanistan,South Asia,0.295,36.3,32.1,31.6,9,Nutrition
+SEN,Senegal,Sub-Saharan Africa,0.296,41.3,27.3,31.4,10,None
+NGA,Nigeria,Sub-Saharan Africa,0.303,28.2,33.1,38.7,10,None
+BEN,Benin,Sub-Saharan Africa,0.307,41.7,13.4,45.0,10,None
+CIV,Cote d'Ivoire,Sub-Saharan Africa,0.310,34.5,29.6,35.9,10,None
+GMB,Gambia,Sub-Saharan Africa,0.323,28.9,37.4,33.7,10,None
+MDG,Madagascar,Sub-Saharan Africa,0.357,34.3,16.7,49.1,10,None
+TLS,Timor-Leste,East Asia and the Pacific,0.360,21.3,31.0,47.7,10,None
+UGA,Uganda,Sub-Saharan Africa,0.367,15.6,34.1,50.4,10,None
+GNB,Guinea-Bissau,Sub-Saharan Africa,0.371,30.8,26.6,42.6,10,None
+LBR,Liberia,Sub-Saharan Africa,0.374,21.5,32.1,46.4,10,None
+MOZ,Mozambique,Sub-Saharan Africa,0.389,29.1,20.7,50.2,10,None
+COD,"Congo, Democratic Republic of the",Sub-Saharan Africa,0.401,15.0,31.6,53.3,10,None
+CAF,Central African Republic,Sub-Saharan Africa,0.430,24.1,24.1,51.8,10,None
+BDI,Burundi,Sub-Saharan Africa,0.454,23.1,28.9,48.0,10,None
+MLI,Mali,Sub-Saharan Africa,0.457,36.1,24.9,38.9,10,None
+GIN,Guinea,Sub-Saharan Africa,0.459,34.0,27.9,38.1,10,None
+SLE,Sierra Leone,Sub-Saharan Africa,0.464,23.1,31.5,45.5,10,None
+ETH,Ethiopia,Sub-Saharan Africa,0.506,25.4,26.1,48.5,10,None
+SOM,Somalia,Arab States,0.514,34.2,18.6,47.2,10,None
+BFA,Burkina Faso,Sub-Saharan Africa,0.535,36.2,27.9,35.9,10,None
+TCD,Chad,Sub-Saharan Africa,0.552,31.4,23.9,44.7,10,None
+SSD,South Sudan,Sub-Saharan Africa,0.557,40.1,12.7,47.2,10,None
+NER,Niger,Sub-Saharan Africa,0.605,32.1,27.7,40.1,10,None
