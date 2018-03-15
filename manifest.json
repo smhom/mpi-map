@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "MPI Visualization",
+  "name": "Multidimensional Poverty Index Visualization",
   "icons": [
     {
       "src": "favicon.ico",
