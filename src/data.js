@@ -427,7 +427,60 @@ const VIEW_STATE_HEALTH 	= 'VIEW_STATE_HEALTH'
 const VIEW_STATE_EDUCATION 	= 'VIEW_STATE_EDUCATION'
 const VIEW_STATE_LIVINGSTANDARD = 'VIEW_STATE_LIVINGSTANDARD'
 
-	
+const mpi_desc = "The multidimensional poverty indicator (MPI)" +
+		"was developed by the Oxford Poverty & Human Development Initiative (OPHI)" +
+		"with the UN Development Program (UNDP) to provide an international measure " +
+		"of acute poverty for over 100 developing nations.  It uses ten indicators "+
+		"describing health, education, and living standards.  A person is identified as 'MPI poor' " +
+		"if they are deprived in at least one third of the 10 indicators. The MPI value for a country" +
+		"or region is  calculated by multiplying the  proportion of the population" +
+		"that is 'MPI Poor' (H) by the average proportion of indicators in which poor people are deprived (A).  " +
+		"MPI = H x A. "+ 
+		"The MPI values reflects both the share of people in poverty and the degree to which they are deprived. (Scale/legend to follow)"
+
+const health_desc = "The data here describes the contribution that health has in the MPI value. " +
+        "The indicators used to measure poverty in terms of health are "+
+        "'child mortality' and 'nutrition'. "+
+        "A household is considered deprived in terms of 'child mortality' if "+
+        "any child has died in the family in the five-year period preceding the survey. " +
+        "A household is considered deprived nutritionally if "+
+        "any adult under 70 years of age or any child is undernourished in  terms of weight for age. (Scale/legend to follow)"
+    
+const livingstandard_desc = "The data here describes the contribution that living standard has in the MPI value. " +
+    "The indicators used to measure poverty in terms of living standard are electricity, improved sanitation, " +
+    "improved drinking water, flooring, cooking fuel and assets ownership. (Scale/legend to follow)"
+   
+/*
+ * "Electricity The household has no electricity. 1/18 Improved Sanitation The
+ * household’s sanitation facility is not improved (according to MDG
+ * guidelines), or it is improved but shared with other households** . MDG7 1/18
+ * Improved Drinking Water The household does not have access to improved
+ * drinking water (according to MDG guidelines) or safe drinking water is at
+ * least a 30-minute walk from home, roundtrip*** . MDG7 1/18 Flooring The
+ * household has a dirt, sand, dung or ‘other’ (unspecified) type of floor. 1/18
+ * Cooking Fuel The household cooks with dung, wood or charcoal. MDG7 1/18
+ * Assets ownership The household does not own more than one radio, TV,
+ * telephone, bike, motorbike " + "A household is consdered deprived in 'years
+ * of schooling' " + "if no household member aged 10 years or older has
+ * completed five years of schooling. A household " + "is considered deprived in
+ * 'child school attendance' if any school-aged child(ren) is not attending " +
+ * "school up to the age at which he/she would complete class 8."
+ */
+const education_desc = "The data here describes the contribution that education has in the MPI value. " +
+		"The indicators used to measure poverty in terms of education are "+
+		"'years of schooling' and 'child school attendance'. A household is consdered deprived in 'years of schooling' " +
+		"if no household member aged 10 years or older has completed five years of schooling. A household " +
+		"is considered deprived in 'child school attendance' if any school-aged child(ren) is not attending " +
+		"school up to the age at which he/she would complete class 8. (Scale/legend to follow)"
+
+
+		
+    
+const description_map = map({VIEW_STATE_MPI:mpi_desc,
+                             VIEW_STATE_HEALTH:health_desc,
+                             VIEW_STATE_EDUCATION:education_desc,
+                             VIEW_STATE_LIVINGSTANDARD:livingstandard_desc,
+                            })
 	
 export {mpi_values, 
 		health_contribution, 
@@ -435,4 +488,5 @@ export {mpi_values,
 		education_contribution,
 		VIEW_STATE_MPI, VIEW_STATE_HEALTH, 
 		VIEW_STATE_EDUCATION, 
-		VIEW_STATE_LIVINGSTANDARD}
+		VIEW_STATE_LIVINGSTANDARD,
+		description_map}

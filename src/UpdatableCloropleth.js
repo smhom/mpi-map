@@ -6,12 +6,12 @@ import {
   Geography,} from "react-simple-maps"
 import chroma from "chroma-js"
 import { scaleLinear } from "d3-scale"
-
 import ReactTooltip from "react-tooltip"
 import {mpi_values, 
 	health_contribution,
 	livingstandard_contribution, 
 	education_contribution} from './data';
+
 import {VIEW_STATE_MPI, VIEW_STATE_HEALTH, 
 		VIEW_STATE_EDUCATION, 
 		VIEW_STATE_LIVINGSTANDARD} from './data'
@@ -22,7 +22,6 @@ const wrapperStyles = {
   maxWidth: 980,
   margin: "0 auto",
 }
-
 
 
 const mpiScale = scaleLinear()

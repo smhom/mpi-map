@@ -1,24 +1,28 @@
 import React, { Component } from 'react';
 import './App.css';
 import UpdatableCloropleth from './UpdatableCloropleth'
-import {Nav, NavItem} from "react-bootstrap"
+import BarChart from './BarChart'
+import {Nav, NavItem, Panel} from "react-bootstrap"
 
 
 import {VIEW_STATE_MPI, VIEW_STATE_HEALTH, 
 	VIEW_STATE_EDUCATION, 
-	VIEW_STATE_LIVINGSTANDARD} from './data'
+	VIEW_STATE_LIVINGSTANDARD,
+	description_map} from './data'
 
-
+	
 class App extends Component {
 	constructor(props) {
 	    super(props)
 	    this.state = {      
-		  activeTab: VIEW_STATE_MPI 
+		  activeTab: VIEW_STATE_MPI ,
+		  activeDesc: description_map.get(VIEW_STATE_MPI)
 	    }
 	 }	
 	
 	handleSelect(selectedKey) {
-		  this.setState({activeTab:selectedKey});
+		  this.setState({activeTab:selectedKey, 
+		      activeDesc: description_map.get(selectedKey) });
 	}	
 	
   render() {
@@ -53,9 +57,25 @@ class App extends Component {
         </Nav>
         </div>
         
+        
+        <div>           
+            <Panel>
+            <Panel.Body>
+            {this.state.activeDesc}
+            </Panel.Body>
+            </Panel>
+            
 		<UpdatableCloropleth viewState={this.state.activeTab}/>
-		References:
-			http:// ophi.org.uk/multidimensional-poverty-index/
+		<BarChart viewState={this.state.activeTab}/>
+		</div>
+		
+		<Panel>
+        <Panel.Body>
+        References: <a href = "http:// ophi.org.uk/multidimensional-poverty-index/">OPHI</a>
+        <p></p>
+        </Panel.Body>
+        </Panel>
+		
       </div>
     );
   }
